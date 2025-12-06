@@ -1,6 +1,6 @@
 let bool1 = false;
 let bool2 = true;
-console.log(typeof bool1)
+console.log(typeof bool1, typeof bool2);
 
 let str1 = "JavaScript is fun!";
 let str2 = "JavaScript is fun!";

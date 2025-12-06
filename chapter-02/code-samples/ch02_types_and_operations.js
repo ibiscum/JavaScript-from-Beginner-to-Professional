@@ -1,26 +1,26 @@
-// let nr1 = 12;
-// let nr2 = 14;
-// let str1 = "Hello ";
-// let str2 = "addition";
-// let result1 = nr1 + nr2;
-// let result2 = str1 + str2;
-// console.log(result1, result2);
+let nr1 = 12;
+let nr2 = 14;
+let str1 = "Hello ";
+let str2 = "addition";
+let result1 = nr1 + nr2;
+let result2 = str1 + str2;
+console.log(result1, result2);
 
-// let nr1 = 20;
-// let nr2 = 4;
-// let str1 = "Hi ";
-// let nr3 = 3;
-// let result1 = nr1 - nr2;
-// let result2 = str1 - nr3;
-// console.log(result1, result2);
+nr1 = 20;
+nr2 = 4;
+str1 = "Hi ";
+let nr3 = 3;
+result1 = nr1 - nr2;
+result2 = str1 - nr3;
+console.log(result1, result2);
 
-// let nr1 = 15;
-// let nr2 = 10;
-// let str1 = "Hi";
-// let nr3 = 3;
-// let result1 = nr1 * nr2;
-// let result2 = str1 * nr3;
-// console.log(result1, result2);
+nr1 = 15;
+nr2 = 10;
+str1 = "Hi";
+nr3 = 3;
+result1 = nr1 * nr2;
+result2 = str1 * nr3;
+console.log(result1, result2);
 
 // let nr1 = 30;
 // let nr2 = 5;
@@ -58,7 +58,7 @@
 // let nr = 2;
 // console.log(++nr);
 
-let nr1 = 4;
-let nr2 = 5;
-let nr3 = 2;
-console.log(nr1++ + ++nr2 * nr3++);
+//let nr1 = 4;
+//let nr2 = 5;
+//let nr3 = 2;
+//console.log(nr1++ + ++nr2 * nr3++);

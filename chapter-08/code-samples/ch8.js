@@ -8,10 +8,10 @@ console.log("Encoded:", encoded_uri);
 let decoded_uri = decodeURI(encoded_uri);
 console.log("Decoded:", decoded_uri);
 
-let uri = "https://www.example.com/submit?name=maaike van putten";
-let encoded_uri = encodeURIComponent(uri);
+uri = "https://www.example.com/submit?name=maaike van putten";
+encoded_uri = encodeURIComponent(uri);
 console.log("Encoded:", encoded_uri);
-let decoded_uri = decodeURIComponent(encoded_uri);
+decoded_uri = decodeURIComponent(encoded_uri);
 console.log("Decoded:", decoded_uri);
 
 //parseint
@@ -40,15 +40,15 @@ let str_version_nr = "2.3.4";
 let float_version_nr = parseFloat(str_version_nr);
 console.log("Type of", float_version_nr, "is", typeof float_version_nr);
 
-let str_int = "6";
+str_int = "6";
 let float_int = parseFloat(str_int);
 console.log("Type of", float_int, "is", typeof float_int);
 
-let str_binary = "0b101";
+str_binary = "0b101";
 let float_binary = parseFloat(str_binary);
 console.log("Type of", float_binary, "is", typeof float_binary);
 
-let str_nan = "hello!";
+str_nan = "hello!";
 let float_nan = parseFloat(str_nan);
 console.log("Type of", float_nan, "is", typeof float_nan);
 
@@ -83,7 +83,7 @@ let pos2 = poem.charAt(1000);
 console.log(pos2);
 
 //slice
-let str = "Baby shark";
+str = "Baby shark";
 let substr1 = str.slice(5);
 let substr2 = str.slice(0,3);
 console.log("1:", substr1);
@@ -146,14 +146,14 @@ let highestOfWords = Math.max("hi", "bye");
 console.log(highestOfWords);
 
 // sqrt() and pow()
-let result = Math.sqrt(64);
+result = Math.sqrt(64);
 console.log(result);
 
 let result2 = Math.pow(5, 3);
 console.log(result2);
 
 // Ceil() and floor() and trunc() and round()
-let x = 6.78;
+x = 6.78;
 let y = 5.34;
 
 console.log("X:", x, "becomes", Math.round(x));
@@ -178,7 +178,7 @@ console.log("X:", x, "becomes", Math.trunc(x));
 console.log("Y:", y, "becomes", Math.trunc(y));
 
 // Exp() and log10()
-let x = 2;
+x = 2;
 let exp = Math.exp(2);
 console.log("Exp:", exp);
 let log = Math.log(exp);
@@ -208,7 +208,7 @@ console.log("Milliseconds:", d.getMilliseconds());
 console.log("Time:", d.getTime());
 
 d.setFullYear(2010);
-console.log(d);
+ console.log(d);
 
 d.setMonth(9);
 console.log(d);
@@ -223,7 +223,7 @@ d.setMinutes(10);
 console.log(d);
 
 d.setSeconds(10);
-console.log(d);
+ console.log(d);
 
 d.setMilliseconds(10);
 console.log(d);
@@ -243,7 +243,7 @@ console.log(d.toDateString());
 console.log(d.toLocaleDateString);
 
 // Array
-let arr = ["grapefruit", 4, "hello", 5.6, true];
+arr = ["grapefruit", 4, "hello", 5.6, true];
 
 // foreach() method
 function printStuff(element, index) {
@@ -279,12 +279,12 @@ console.log(bb.lastIndexOf("bye"));
 
 // join() method
 let letters = ["a", "b", "c"];
-let x = letters.join();
+x = letters.join();
 console.log(x);
 
 // Number
 // isNaN()
-let x = 34;
+x = 34;
 console.log(isNaN(x));
 let str = "hi";
 console.log(isNaN(str));
@@ -302,9 +302,9 @@ console.log(Number.isInteger(Infinity));
 console.log(Number.isInteger(2.4));
 
 // toFixed()
-let x = 1.23456;
-let newX = x.toFixed(2); // 2 decimals
+x = 1.23456;
+newX = x.toFixed(2); // 2 decimals
 
 // toPrecision()
-let x = 1.23456;
-let newX = x.toPrecision(2); //2 numbers
+x = 1.23456;
+newX = x.toPrecision(2); //2 numbers

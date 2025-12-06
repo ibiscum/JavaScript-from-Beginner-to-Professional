@@ -35,7 +35,7 @@ console.log("negativeY:", negativeY, "becomes", Math.floor(negativeY));
 console.log("X:", x, "becomes", Math.trunc(x));
 console.log("Y:", y, "becomes", Math.trunc(y));
 
-let x = 2;
+x = 2;
 let exp = Math.exp(x);
 console.log("Exp:", exp);
 let log = Math.log(exp);

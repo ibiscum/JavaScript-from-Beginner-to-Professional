@@ -8,7 +8,7 @@ let str4 = "I'm containing a backslash: \\!";
 console.log(str3);
 console.log(str4);
 
-let str = "Hello";
+str = "Hello";
 let nr = 7;
 let bigNr = 12345678901234n;
 let bool = true;

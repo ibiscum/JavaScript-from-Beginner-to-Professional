@@ -3,7 +3,7 @@ let s2 = "JavaScript";
 let result = s1.concat(s2);
 console.log(result);
 
-let result = "Hello JavaScript";
+result = "Hello JavaScript";
 let arr_result = result.split(" ");
 console.log(arr_result);
 
@@ -11,8 +11,8 @@ let favoriteFruits = "strawberry,watermelon,grapefruit";
 let arr_fruits = favoriteFruits.split(",");
 console.log(arr_fruits);
 
-let letters = ["a", "b", "c"];
-let x = letters.join();
+letters = ["a", "b", "c"];
+x = letters.join();
 console.log(x);
 
 let letters = ["a", "b", "c"];
@@ -59,8 +59,8 @@ console.log(new_hi);
 let new_hi2 = hi.replace("not there", "never there");
 console.log(new_hi2);
 
-let s3 = "hello hello";
-let new_s3 = s3.replace("hello", "oh");
+s3 = "hello hello";
+new_s3 = s3.replace("hello", "oh");
 console.log(new_s3);
 
 let s3 = "hello hello";
@@ -71,8 +71,8 @@ let low_bye = "bye!";
 let up_bye = low_bye.toUpperCase();
 console.log(up_bye);
 
-let caps = "HI HOW ARE YOU?";
-let fixed_caps = caps.toLowerCase();
+caps = "HI HOW ARE YOU?";
+fixed_caps = caps.toLowerCase();
 console.log(fixed_caps);
 
 let caps = "HI HOW ARE YOU?";
@@ -92,4 +92,3 @@ console.log(bool_start3);
 
 let bool_end = encouragement.endsWith("Something else");
 console.log(bool_end);
-
