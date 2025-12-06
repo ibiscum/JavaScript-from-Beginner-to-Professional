@@ -1,6 +1,7 @@
 let varContainingFunction = function () {
   let varInFunction = "I'm in a function.";
   console.log("hi there!");
+  console.log(varInFunction);
 };
 
 varContainingFunction();
