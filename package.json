@@ -1,0 +1,25 @@
+{
+  "name": "javascript-from-beginner-to-professional",
+  "version": "1.0.0",
+  "description": "JavaScript from Beginner to Professional, Published by Packt",
+  "homepage": "https://github.com/ibiscum/JavaScript-from-Beginner-to-Professional#readme",
+  "bugs": {
+    "url": "https://github.com/ibiscum/JavaScript-from-Beginner-to-Professional/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibiscum/JavaScript-from-Beginner-to-Professional.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0"
+  }
+}
