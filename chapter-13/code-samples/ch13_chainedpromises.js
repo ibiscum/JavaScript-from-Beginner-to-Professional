@@ -1,6 +1,6 @@
-const promise = new Promise((fulfill, reject) => {
+const promise = new Promise((fulfill) => {
     fulfill('success!');
-    //reject('oops...');
+    // reject('oops...');
 })
     .then(value => {
         console.log(value);
@@ -24,3 +24,5 @@ const promise = new Promise((fulfill, reject) => {
     .catch(value => {
         console.log(value);
     })
+
+console.log(promise);

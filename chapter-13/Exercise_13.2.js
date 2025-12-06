@@ -1,4 +1,4 @@
-const myPromise = new Promise((resolve, reject) => {
+const myPromise = new Promise((resolve) => {
     resolve("Start Counting");
 });
 
