@@ -4,4 +4,4 @@ do {
     console.log(counter);
     counter += step;
 }
-while (counter <= 100); 
+while (counter <= 100);
