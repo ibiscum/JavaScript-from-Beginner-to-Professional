@@ -1,13 +1,16 @@
-arr1 = new Array("purple", "green", "yellow");
-arr2 = ["black", "orange", "pink"];
+let arr1 = new Array("purple", "green", "yellow");
+console.log(arr1);
 
-arr3 = new Array(10);
-arr4 = [10];
+let arr2 = ["black", "orange", "pink"];
+console.log(arr2);
 
+let arr3 = new Array(10);
 console.log(arr3);
+
+let arr4 = [10];
 console.log(arr4);
 
-cars = ["Toyota", "Renault", "Volkswagen"];
+let cars = ["Toyota", "Renault", "Volkswagen"];
 console.log(cars[0]);
 console.log(cars[1]);
 console.log(cars[2]);
@@ -18,34 +21,36 @@ cars[0] = "Tesla";
 console.log(cars[0]);
 
 cars[3] = "Kia";
-cars[-1] = "Fiat";
 console.log(cars[3]);
+
+cars[-1] = "Fiat";
 console.log(cars[-1]);
 
-colors = ["black", "orange", "pink"]
-booleans = [true, false, false, true];
-emptyArray = [];
-
+let colors = ["black", "orange", "pink"]
 console.log("Length of colors:", colors.length);
+
+let booleans = [true, false, false, true];
 console.log("Length of booleans:", booleans.length);
+
+let emptyArray = [];
 console.log("Length of emtpy array:", emptyArray.length);
 
-lastElement = colors[colors.length - 1];
+let lastElement = colors[colors.length - 1];
 console.log(lastElement);
 
-numbers = [12, 24, 36];
+let numbers = [12, 24, 36];
 numbers[-1] = 0;
 numbers[5] = 48;
 console.log(numbers.length);
-
 console.log("numbers", numbers);
 
-favoriteFruits = ["grapefruit", "orange", "lemon"];
+let favoriteFruits = ["grapefruit", "orange", "lemon"];
 favoriteFruits.push("tangerine");
+console.log(favoriteFruits);
 
 let lengthOfFavoriteFruits = favoriteFruits.push("lime");
-console.log(lengthOfFavoriteFruits);
 console.log(favoriteFruits);
+console.log(lengthOfFavoriteFruits);
 
 let arrOfShapes = ["circle", "triangle", "rectangle", "pentagon"];
 arrOfShapes.splice(2, 0, "square", "trapezoid");
@@ -69,9 +74,10 @@ arr8.splice(1, 3);
 console.log(arr8);
 
 delete arr8[0];
-console.log(arr8); 
+console.log(arr8);
 
-let findValue = arr8.find(() => e === 6);
+let e = 6;
+let findValue = arr8.find(() => e === 5);
 let findValue2 = arr8.find(() => e === 8);
 console.log(findValue, findValue2);
 
@@ -84,14 +90,14 @@ let animals = ["dog", "horse", "cat", "platypus", "dog"]
 let lastDog = animals.lastIndexOf("dog");
 console.log(lastDog);
 
-
 let names = ["James", "Alicia", "Fatiha", "Maria", "Bert"];
+console.log(names);
 names.sort();
+console.log(names);
 
 let ages = [18, 72, 33, 56, 40];
+console.log(ages);
 ages.sort();
-
-console.log(names);
 console.log(ages);
 
 names.reverse();
