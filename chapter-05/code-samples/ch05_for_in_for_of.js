@@ -1,3 +1,5 @@
+let names = ["Peter", "Anna", "Sven", "Maria"];
+
 for (let name of names) {
   console.log(name);
 }
@@ -43,3 +45,7 @@ let cars = [
     color: "black",
   },
 ];
+
+for (let car in cars) {
+  console.log(cars[car]);
+}

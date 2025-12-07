@@ -7,7 +7,7 @@ for (let i = 0; i < 100; i++) {
   arr.push(i);
 }
 
-let arr = [];
+arr = [];
 for (let i = 0; i < 100; i = i + 2) {
   arr.push(i);
 }
@@ -27,7 +27,6 @@ for (let i = 0; i < names.length; i++) {
   console.log(names[i]);
 }
 
-//let names = ["chantal", "john", "maxime", "bobbi", "jair"];
 for (let i = 0; i < names.length; i++) {
   names[i] = "hello " + names[i];
 }

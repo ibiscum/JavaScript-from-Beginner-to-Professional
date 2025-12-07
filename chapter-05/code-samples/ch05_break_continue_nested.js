@@ -5,14 +5,14 @@ for (let i = 0; i < 10; i++) {
   }
 }
 
-for (let i = 0; i < cars.length; i++) {
-  if (cars[i].year >= 2020) {
-    if (cars[i].color === "black") {
-      console.log("I have found my new car and can stop looking:", car[i]);
-      break;
-    }
-  }
-}
+// for (let i = 0; i < cars.length; i++) {
+//   if (cars[i].year >= 2020) {
+//     if (cars[i].color === "black") {
+//       console.log("I have found my new car and can stop looking:", car[i]);
+//       break;
+//     }
+//   }
+// }
 
 let superLongArray = [];
 while (true) {
@@ -34,14 +34,15 @@ while (superLongArray.length > 0 && notFound) {
   }
 }
 
-for (let car of cars) {
-  if (car.color !== "black") {
-    continue;
-  }
-  if (car.year >= 2020) {
-    console.log("sure, let's get this one:", car);
-  }
-}
+// for (let car of cars) {
+//   if (car.color !== "black") {
+//     continue;
+//   }
+//   if (car.year >= 2020) {
+//     console.log("sure, let's get this one:", car);
+//   }
+// }
+
 // let's only log the odd numbers to the console
 let i = 1;
 while (i < 50) {
@@ -52,7 +53,7 @@ while (i < 50) {
   i++;
 }
 
-let i = 1;
+i = 1;
 while (i < 50) {
   i++;
   if ((i - 1) % 2 === 0) {
@@ -99,7 +100,7 @@ for (let group of groups) {
 }
 
 outer: for (let group of groups) {
-  inner: for (let member of group) {
+  for (let member of group) {
     if (member.startsWith("m")) {
       console.log("found one starting with m:", member);
       break outer;
