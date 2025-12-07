@@ -7,7 +7,8 @@
 
       function uploadFile(files) {
         for (let i = 0; i < files.length; i++) {
-          message.innerHTML += files[i].name + "<br>";
+          message.appendChild(document.createTextNode(files[i].name));
+          message.appendChild(document.createElement("br"));
         }
       }
     </script>
