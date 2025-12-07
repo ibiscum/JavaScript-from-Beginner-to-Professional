@@ -17,14 +17,14 @@ function logRecursive(nr) {
 
 logRecursive(3);
 
-function getRecursive(nr) {
+function getRecursiveB(nr) {
   console.log(nr);
   if (nr > 0) {
-    getRecursive(--nr);
+    getRecursiveB(--nr);
   }
 }
 
-getRecursive(3);
+getRecursiveB(3);
 
 function calcFactorial(nr) {
   if (nr === 0) {
@@ -33,3 +33,6 @@ function calcFactorial(nr) {
     return nr * calcFactorial(--nr);
   }
 }
+
+let result = calcFactorial(5);
+console.log("Factorial result is:", result);

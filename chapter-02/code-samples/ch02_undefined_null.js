@@ -9,3 +9,4 @@ let betterOption = null;
 console.log("Same null:", lastname === betterOption);
 
 let empty = null;
+console.log("empty is null:", empty === null);

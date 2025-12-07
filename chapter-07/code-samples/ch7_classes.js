@@ -10,17 +10,10 @@ class Dog {
 let dog = new Dog("JavaScript", 2.4, "brown", "chihuahua");
 console.log(dog.dogName, "is a", dog.breed, "and weighs", dog.weight, "kg.");
 
-class Person {
-  constructor(firstname, lastname) {
-    this.firstname = firstname;
-    this.lastname = lastname;
-  }
-}
-
-let p = new Person("Maaike", "van Putten");
+p = new Person("Maaike", "van Putten");
 console.log("Hi", p.firstname);
 
-let p = new Person("Maaike");
+p = new Person("Maaike");
 console.log("Hi", p.firstname, p.lastname);
 
 class Person {
@@ -113,6 +106,6 @@ Person.prototype.introduce = function () {
   console.log("Hi, I'm", this.firstname);
 };
 
-let p = new Person("Maria", "Saga");
+p = new Person("Maria", "Saga");
 p.introduce();
 

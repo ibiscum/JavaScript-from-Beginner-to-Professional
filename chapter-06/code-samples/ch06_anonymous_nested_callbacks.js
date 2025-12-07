@@ -2,6 +2,8 @@ function doingStuffAnonymously() {
   console.log("Not so secret though.");
 }
 
+doingStuffAnonymously();
+
 let functionVariable = function () {
   console.log("Not so secret though.");
 };
@@ -32,7 +34,7 @@ function doOuterFunctionStuff(nr) {
 
 doOuterFunctionStuff(2);
 
-function doOuterFunctionStuff(nr) {
+function doOuterFunctionStuffB(nr) {
   doInnerFunctionStuff(nr);
   function doInnerFunctionStuff(x) {
     let z = 10;
@@ -40,16 +42,17 @@ function doOuterFunctionStuff(nr) {
   console.log("Not accessible:", z);
 }
 
-doOuterFunctionStuff(2);
+doOuterFunctionStuffB(2);
 
-function doOuterFunctionStuff(nr) {
+function doOuterFunctionStuffC(nr) {
   doInnerFunctionStuff(nr);
   function doInnerFunctionStuff(x) {
     let z = 10;
   }
 }
 
-doInnerFunctionStuff(3);
+// doInnerFunctionStuff(3);
+doOuterFunctionStuffC(2);
 
 let youGotThis = function () {
   console.log("You're doing really well, keep coding!");

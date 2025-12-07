@@ -32,7 +32,7 @@ let int_nan = parseInt(str_nan);
 console.log("Type of", int_nan, "is", typeof int_nan);
 
 //parsefloat
-let str_float = "7.6";
+str_float = "7.6";
 let float_float = parseFloat(str_float);
 console.log("Type of", float_float, "is", typeof float_float);
 
@@ -253,7 +253,7 @@ function printStuff(element, index) {
 arr.forEach(printStuff);
 
 // filter() method
-function checkString(element, index) {
+function checkString(element) {
   return typeof element === "string";
 }
 
@@ -303,8 +303,10 @@ console.log(Number.isInteger(2.4));
 
 // toFixed()
 x = 1.23456;
-newX = x.toFixed(2); // 2 decimals
+let newX = x.toFixed(2); // 2 decimals
+console.log(x, newX);
 
 // toPrecision()
 x = 1.23456;
 newX = x.toPrecision(2); //2 numbers
+console.log(x, newX);
