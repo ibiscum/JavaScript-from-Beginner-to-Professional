@@ -38,8 +38,11 @@ function doOuterFunctionStuffB(nr) {
   doInnerFunctionStuff(nr);
   function doInnerFunctionStuff(x) {
     let z = 10;
+    console.log(x + z);
+    console.log("I can access outer variables:", nr);
+    return x + z;
   }
-  console.log("Not accessible:", z);
+  // console.log("Not accessible:", z);
 }
 
 doOuterFunctionStuffB(2);
@@ -48,6 +51,7 @@ function doOuterFunctionStuffC(nr) {
   doInnerFunctionStuff(nr);
   function doInnerFunctionStuff(x) {
     let z = 10;
+    return x + z;
   }
 }
 

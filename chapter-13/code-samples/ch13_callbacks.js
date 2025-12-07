@@ -1,4 +1,4 @@
-function doSomething(callback) {  
+function doSomething(callback) {
     callback();
 }
 
@@ -28,7 +28,8 @@ function judge(grade) {
     }
 }
 
-function getGrade(score, callback) {
+// function getGrade(score, callback) {
+function getGrade(score, judge) {
     let grade;
     switch (true) {
         case score >= 90:

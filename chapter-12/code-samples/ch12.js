@@ -58,8 +58,8 @@ console.log(text.replace(/Coding/g, "Javascript"));
 
 function testA(a, b, c) {
   console.log("first:", a, arguments[0]);
-  console.log("second:", a, arguments[1]);
-  console.log("third:", a, arguments[2]);
+  console.log("second:", b, arguments[1]);
+  console.log("third:", c, arguments[2]);
 }
 
 testA("fun", "js", "secrets");
@@ -68,8 +68,8 @@ function testB(a, b, c) {
   a = "nice";
   arguments[1] = "JavaScript";
   console.log("first:", a, arguments[0]);
-  console.log("second:", a, arguments[1]);
-  console.log("third:", a, arguments[2]);
+  console.log("second:", b, arguments[1]);
+  console.log("third:", c, arguments[2]);
 }
 
 testB("fun", "js", "secrets");
@@ -81,23 +81,25 @@ console.log(x);
 
 x = 5;
 console.log(x);
-var x;
+x;
 
 function sayHi() {
-  greeting = "Hello!";
+  let greeting = "Hello!";
   console.log(greeting);
 }
+sayHi
 
 document.cookie = "name=Maaike;favoriteColor=black";
 let cookie = decodeURIComponent(document.cookie);
-let cookieList = decodedCookie.split(";");
+let cookieList = cookie.split(";");
 for (let i = 0; i < cookieList.length; i++) {
   let c = cookieList[i];
   if (c.charAt(0) == " ") {
     c = c.trim();
   }
   if (c.indexOf("name") == 0) {
-    return c.substring(4, c.length); //start one later to skip =
+    //return
+    c.substring(4, c.length); //start one later to skip =
   }
 }
 
@@ -120,10 +122,16 @@ try {
   }
 }
 
+function trySomething() {
+  throw new Error("Something went wrong!");
+}
+
 try {
   trySomething();
-} catch (e) {
-  console.log("Oh oh");
-} finally {
+}
+catch (e) {
+  console.log("Oh oh: ", e.message);
+}
+finally {
   console.log("Error or no error, I will be logged!");
 }
