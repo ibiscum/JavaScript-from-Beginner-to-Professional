@@ -30,8 +30,10 @@
             }
             function checker() {
                 let bg = answer.value == game.answer ? "green" : "red";
-                output.innerHTML +=
-                    `<div style="color:${bg}">${game.val1} + ${game.val2} = ${game.answer} (${answer.value})</div>`;
+                const entry = document.createElement("div");
+                entry.style.color = bg;
+                entry.textContent = `${game.val1} + ${game.val2} = ${game.answer} (${answer.value})`;
+                output.appendChild(entry);
                 answer.value = "";
                 loadQuestion();
             }
