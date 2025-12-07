@@ -63,7 +63,7 @@ console.log(motor.color);
 motor.accelerate(50);
 motor.move();
 
-class Person {
+class PersonB {
   #firstname;
   #lastname;
   constructor(firstname, lastname) {
@@ -88,10 +88,10 @@ class Person {
   }
 }
 
-let p = new Person("Maria", "Saga");
+let p = new PersonB("Maria", "Saga");
 console.log(p.firstname);
 
-class Person {
+class PersonC {
   constructor(firstname, lastname) {
     this.firstname = firstname;
     this.lastname = lastname;
@@ -102,10 +102,10 @@ class Person {
   }
 }
 
-Person.prototype.introduce = function () {
+PersonC.prototype.introduce = function () {
   console.log("Hi, I'm", this.firstname);
 };
 
-p = new Person("Maria", "Saga");
+p = new PersonC("Maria", "Saga");
 p.introduce();
 
