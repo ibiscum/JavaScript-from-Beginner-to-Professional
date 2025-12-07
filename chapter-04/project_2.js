@@ -1,4 +1,6 @@
-let person = prompt("Enter a name");
+import { question } from 'readline-sync';
+
+let person = question("Enter a name: ");
 let message;
 switch (person) {
     case "John" :

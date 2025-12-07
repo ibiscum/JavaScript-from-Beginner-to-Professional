@@ -1,21 +1,22 @@
+import { question } from 'readline-sync';
 const randomNumber = Math.floor(Math.random() * 6);
 let answer = "Something went wrong";
-let question = prompt("Ask me anything");
+let q = question("Ask me anything: ");
 switch (randomNumber) {
     case 0:
-        answer = "It will work out";
+        answer = "it will work out";
         break;
     case 1:
-        answer = "Maybe, maybe not";
+        answer = "maybe, maybe not";
         break;
     case 2:
-        answer = "Probably not";
+        answer = "probably not";
         break;
     case 3:
-        answer = "Highly likely";
+        answer = "highly likely";
         break;
     default:
         answer = "I don't know about that";
 }
-let output = "You asked me " + question + ". I think that " + answer;
+let output = "You asked me " + q + ". I think that " + answer;
 console.log(output);

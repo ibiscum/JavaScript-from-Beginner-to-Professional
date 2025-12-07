@@ -1,4 +1,6 @@
-let val = prompt("What number?");
+import { question } from 'readline-sync';
+
+let val = question("What number? ");
 val = Number(val);
 let num = 100;
 let message = "nothing";
@@ -9,5 +11,4 @@ if (val > num) {
 } else {
     message = val + " is less than " + num;
 }
-console.log(message);
 console.log(message);
