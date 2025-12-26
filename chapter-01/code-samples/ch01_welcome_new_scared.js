@@ -1,6 +1,6 @@
-let status = "new";
+let state = "new";
 let scared = true;
-if (status === "new") {
+if (state === "new") {
   console.log("Welcome to JavaScript!");
   if (scared) {
     console.log("Don't worry you will be fine!");
@@ -10,4 +10,3 @@ if (status === "new") {
 } else {
   console.log("Welcome back, I new you'd like it!");
 }
-
