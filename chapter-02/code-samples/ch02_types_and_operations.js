@@ -22,10 +22,10 @@ result1 = nr1 * nr2;
 result2 = str1 * nr3;
 console.log(result1, result2);
 
-// let nr1 = 30;
-// let nr2 = 5;
-// let result1 = nr1 / nr2;
-// console.log(result1);
+nr1 = 30;
+nr2 = 5;
+result1 = nr1 / nr2;
+console.log(result1);
 
 // let nr1 = 2;
 // let nr2 = 3;

@@ -1,25 +1,31 @@
 let str = "Hello, what's your name? Is it \"Mike\"?";
-console.log(str);
+console.log("ex_12:", str);
 let str2 = 'Hello, what\'s your name? Is it "Mike"?';
-console.log(str2);
+console.log("ex_13:", str2);
 
 let str3 = "New \nline."
+console.log("ex_14:", str3);
+
 let str4 = "I'm containing a backslash: \\!";
-console.log(str3);
-console.log(str4);
+console.log("ex_15:", str4);
 
 str = "Hello";
-let nr = 7;
-let bigNr = 12345678901234n;
-let bool = true;
-let sym = Symbol("unique");
-let undef = undefined;
-let unknown = null;
+console.log("ex_16:", str, typeof str);
 
-console.log("str", typeof str);
-console.log("nr", typeof nr);
-console.log("bigNr", typeof bigNr);
-console.log("bool", typeof bool);
-console.log("sym", typeof sym);
-console.log("undef", typeof undef);
-console.log("unknown", typeof unknown);
+let nr = 7;
+console.log("ex_17:", nr, typeof nr);
+
+let bigNr = 12345678901234n;
+console.log("ex_18:", bigNr, typeof bigNr);
+
+let bool = true;
+console.log("ex_19:", bool, typeof bool);
+
+let sym = Symbol("unique");
+console.log("ex_20:", sym, typeof sym);
+
+let undef = undefined;
+console.log("ex_21", undef, typeof undef);
+
+let unknown = null;
+console.log("ex_22:", unknown, typeof unknown);
