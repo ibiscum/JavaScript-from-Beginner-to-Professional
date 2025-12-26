@@ -1,11 +1,11 @@
 let arr1 = new Array("purple", "green", "yellow");
-console.log(arr1);
+console.log("ex_50:", arr1);
 
 let arr2 = ["black", "orange", "pink"];
-console.log(arr2);
+console.log("ex_51:", arr2);
 
 let arr3 = new Array(10);
-console.log(arr3);
+console.log("ex_52:", arr3);
 
 let arr4 = [10];
 console.log(arr4);

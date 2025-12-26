@@ -1,25 +1,25 @@
 let activity = "Lunch";
 
-if(activity === "Get up") {
+if (activity === "Get up") {
   console.log("It is 6:30AM");
 }
-else if(activity === "Breakfast") {
+else if (activity === "Breakfast") {
   console.log("It is 7:00AM");
 }
-else if(activity === "Drive to work") {
+else if (activity === "Drive to work") {
   console.log("It is 8:00AM");
 }
-else if(activity === "Lunch") {
+else if (activity === "Lunch") {
   console.log("It is 12.00PM");
 }
-else if(activity === "Drive home") {
+else if (activity === "Drive home") {
   console.log("It is 5:00PM")
 }
-else if(activity === "Dinner") {
+else if (activity === "Dinner") {
   console.log("It is 6:30PM");
 }
 
-switch(activity) {
+switch (activity) {
   case "Get up":
     console.log("It is 6:30 AM");
     break;
@@ -40,7 +40,7 @@ switch(activity) {
     break;
 }
 
-switch(activity) {
+switch (activity) {
   case "Get up":
     console.log("It is 6:30AM");
     break;
@@ -66,7 +66,7 @@ switch(activity) {
 
 let grade = "F";
 
-switch(grade){
+switch (grade) {
   case "F":
   case "D":
     console.log("You've failed!");
@@ -82,11 +82,11 @@ switch(grade){
     console.log("I don't know this grade.");
 }
 
-if(grade === "F" || grade === "D") {
+if (grade === "F" || grade === "D") {
   console.log("You've failed!");
-} else if(grade === "C" || grade === "B") {
+} else if (grade === "C" || grade === "B") {
   console.log("You've passed");
-} else if(grade === "A") {
+} else if (grade === "A") {
   console.log("Nice!");
 } else {
   console.log("I don't know this grade.");

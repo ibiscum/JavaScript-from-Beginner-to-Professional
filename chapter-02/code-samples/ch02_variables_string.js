@@ -1,9 +1,9 @@
 let singleString = 'Hi there!';
-console.log(singleString);
+console.log("ex_47:", singleString);
 
 let doubleString = "How are you?";
-console.log(doubleString);
+console.log("ex_48:", doubleString);
 
 let language = "JavaScript";
 let message = `Let's learn ${language}`;
-console.log(message);
+console.log("ex_49:", message);
