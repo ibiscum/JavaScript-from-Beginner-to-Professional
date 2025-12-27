@@ -4,7 +4,7 @@ class Person {
     this.lastname = lastname;
   }
 
-  fullname(){
+  fullname() {
     return this.firstname + " " + this.lastname;
   }
 }
