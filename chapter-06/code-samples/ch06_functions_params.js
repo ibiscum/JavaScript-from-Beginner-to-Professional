@@ -1,12 +1,14 @@
+import { question } from 'readline-sync';
+
 function hiThere() {
-  let you = prompt("What's your name? ");
-  console.log("Hello", you, "!");
+  let you = question("What's your name? ");
+  console.log("Hello " + you + "!");
 }
 
 hiThere();
 
 console.log("this is an argument");
-prompt("argument here too");
+question("argument here too ");
 
 let arr = [];
 arr.push("argument");

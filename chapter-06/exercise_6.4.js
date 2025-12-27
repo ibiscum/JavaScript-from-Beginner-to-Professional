@@ -1,6 +1,6 @@
 const myArr = [];
- 
-for(let x=0; x<10; x++){
+
+for (let x = 0; x < 10; x++) {
   let val1 = 5 * x;
   let val2 = x * x;
   let res = cal(val1, val2, "+");
