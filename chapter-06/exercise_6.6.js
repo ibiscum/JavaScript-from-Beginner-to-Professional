@@ -4,6 +4,8 @@ function calcFactorial(nr) {
     return 1;
   }
   else {
+
+    // eslint-disable-next-line no-useless-assignment
     return nr * calcFactorial(--nr);
   }
 }

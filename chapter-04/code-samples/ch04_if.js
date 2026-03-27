@@ -6,6 +6,7 @@ if (rain) {
   console.log("** I can leave my umbrella at home **");
 }
 
+// eslint-disable-next-line no-unassigned-vars
 let expression;
 if (expression) {
   // code associated with the if block

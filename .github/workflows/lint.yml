@@ -11,11 +11,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-      - name: Use Node.js 24.x
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+      - name: Use Node.js 
         uses: actions/setup-node@v6
         with:
           node-version: 24.x
+          cache: "pnpm"
       - name: install dependencies
-        run: npm ci
-      - name: npm lint
-        run: npm run lint
+        run: pnpm install
+      - name: pnpm lint
+        run: pnpm run lint

@@ -89,7 +89,7 @@ let substr2 = str.slice(0,3);
 console.log("1:", substr1);
 console.log("2:", substr2);
 
-// replace() 
+// replace()
 let hi = "Hi buddy";
 let new_hi = hi.replace("buddy", "Pascal");
 console.log(new_hi);
@@ -178,7 +178,7 @@ console.log("X:", x, "becomes", Math.trunc(x));
 console.log("Y:", y, "becomes", Math.trunc(y));
 
 // Exp() and log10()
-x = 2;
+// x = 2;
 let exp = Math.exp(2);
 console.log("Exp:", exp);
 let log = Math.log(exp);

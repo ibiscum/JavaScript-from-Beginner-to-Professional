@@ -1,7 +1,10 @@
+// eslint-disable-next-line no-unassigned-vars
 let unassigned;
 console.log("ex_36:", unassigned);
 
 let terribleThingToDo = undefined;
+
+// eslint-disable-next-line no-unassigned-vars
 let lastname;
 console.log("ex_37:", lastname === terribleThingToDo);
 

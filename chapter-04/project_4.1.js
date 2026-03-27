@@ -4,6 +4,8 @@ let val = question("What number? ");
 val = Number(val);
 let num = 100;
 let message = "nothing";
+console.log(message);
+
 if (val > num) {
   message = val + "  was greater than " + num;
 } else if (val === num) {

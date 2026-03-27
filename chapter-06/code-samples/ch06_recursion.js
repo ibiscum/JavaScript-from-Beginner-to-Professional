@@ -1,5 +1,6 @@
 function getRecursive(nr) {
   console.log(nr);
+  // eslint-disable-next-line no-useless-assignment
   getRecursive(--nr);
 }
 
@@ -20,6 +21,7 @@ logRecursive(3);
 function getRecursiveB(nr) {
   console.log(nr);
   if (nr > 0) {
+    // eslint-disable-next-line no-useless-assignment
     getRecursiveB(--nr);
   }
 }
@@ -30,6 +32,7 @@ function calcFactorial(nr) {
   if (nr === 0) {
     return 1;
   } else {
+    // eslint-disable-next-line no-useless-assignment
     return nr * calcFactorial(--nr);
   }
 }

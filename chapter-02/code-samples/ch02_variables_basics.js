@@ -1,4 +1,5 @@
 let firstname = "Maria";
+console.log(firstname);
 firstname = "Jacky";
 console.log("ex_40:", firstname);
 

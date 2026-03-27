@@ -56,9 +56,13 @@ console.log("ex_32:", nr++);
 console.log("ex_33:", nr);
 
 nr = 2;
-console.log("ex_34:", ++nr);
+// eslint-disable-next-line no-useless-assignment
+let result = ++nr;
+console.log("ex_34:", result);
 
 nr1 = 4;
 nr2 = 5;
 nr3 = 2;
-console.log("ex_35:", nr1++ + ++nr2 * nr3++);
+// eslint-disable-next-line no-useless-assignment
+result = nr1++ + ++nr2 * nr3++
+console.log("ex_35:", result);

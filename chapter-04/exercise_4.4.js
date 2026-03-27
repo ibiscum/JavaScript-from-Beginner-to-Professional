@@ -1,6 +1,7 @@
 import { question } from 'readline-sync';
 const randomNumber = Math.floor(Math.random() * 6);
 let answer = "Something went wrong";
+console.log(answer)
 let q = question("Ask me anything: ");
 switch (randomNumber) {
   case 0:

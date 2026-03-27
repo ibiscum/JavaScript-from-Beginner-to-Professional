@@ -23,6 +23,7 @@ console.log(Number.isInteger(2.4));
 
 x = 1.23456;
 let newX = x.toFixed(2);
+console.log(newX);
 
 x = 1.23456;
 newX = x.toFixed(3);
@@ -30,6 +31,7 @@ console.log(x, newX);
 
 x = 1.23456;
 newX = x.toPrecision(2);
+console.log(x, newX);
 
 x = 1.23456;
 newX = x.toPrecision(4);
